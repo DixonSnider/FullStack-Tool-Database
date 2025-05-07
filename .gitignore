@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.swp
+Dockerfile.lock
+docker-compose.override.yml
+
+# VSCode
+.vscode/
+.history/
+
+# Logs
+logs/
+*.log
+
+# MySQL
+*.sql
+*.dump
+mysql_data/
+db_data/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+
+# Backend build (if you build backend later)
+backend/node_modules/
+backend/dist/
